@@ -1,0 +1,111 @@
+[gd_scene load_steps=10 format=3 uid="uid://ccyrhtrfr3rj1"]
+
+[ext_resource type="Script" uid="uid://dyujkfu33ld6i" path="res://Muesum/Zone/CryptidZone.cs" id="1_dphy4"]
+[ext_resource type="Script" uid="uid://dui3fskhqg8g3" path="res://Muesum/Zone/CryptidSelectPopup.cs" id="2_0v63n"]
+[ext_resource type="Script" uid="uid://dan2x305lamp8" path="res://Muesum/Exhibit/ExhibitSpot.cs" id="3_qvbsi"]
+[ext_resource type="Texture2D" uid="uid://kttilp4smgxj" path="res://Icons/gregory-ligman-cabinet-double-door-00.jpg" id="4_0h883"]
+[ext_resource type="Texture2D" uid="uid://nmgfgnjya7fr" path="res://Icons/board.png" id="5_6v04g"]
+[ext_resource type="Texture2D" uid="uid://cph4sgrgdany1" path="res://Icons/cage.png" id="6_b8xwt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ewrqf"]
+size = Vector2(2.17984, 2.608838)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jk1hh"]
+size = Vector2(138.34525, 54.10373)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b6b7p"]
+size = Vector2(209.32736, 122.30186)
+
+[node name="CryptidZone" type="Node2D"]
+script = ExtResource("1_dphy4")
+boardPath = NodePath("ExhibitSpot_Board")
+cabinetPath = NodePath("ExhibitSpot_Cabinet")
+cagePath = NodePath("ExhibitSpot_Cage")
+popupPath = NodePath("../UI/ExhibitPopup")
+selectPopupPath = NodePath("UI/CryptidSelectPopup")
+buttonSelectCryptidPath = NodePath("UI/ButtonSelectCryptid")
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -329.0
+offset_top = -196.0
+offset_right = 485.16016
+offset_bottom = 65.74225
+scale = Vector2(0.8200928, 1.3887795)
+mouse_filter = 2
+
+[node name="ButtonSelectCryptid" type="Button" parent="UI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.776
+anchor_top = 0.70900005
+anchor_right = 0.776
+anchor_bottom = 0.70900005
+offset_left = 75.44873
+offset_top = -77.566765
+offset_right = 149.21448
+offset_bottom = -57.949684
+metadata/_edit_use_anchors_ = true
+
+[node name="CryptidSelectPopup" type="Window" parent="UI"]
+oversampling_override = 1.0
+mode = 1
+position = Vector2i(1000, 1000)
+size = Vector2i(135, 42)
+script = ExtResource("2_0v63n")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI/CryptidSelectPopup"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 123.0
+offset_bottom = 38.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="OptionButton" type="OptionButton" parent="UI/CryptidSelectPopup/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ExhibitSpot_Cabinet" type="Area2D" parent="."]
+position = Vector2(-124.52884, 59.760956)
+script = ExtResource("3_qvbsi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ExhibitSpot_Cabinet"]
+position = Vector2(0.5288391, -25.760956)
+scale = Vector2(88.07986, 30.66499)
+shape = SubResource("RectangleShape2D_ewrqf")
+
+[node name="Sprite2D" type="Sprite2D" parent="ExhibitSpot_Cabinet"]
+position = Vector2(-0.4711609, -26.760956)
+scale = Vector2(0.195081, 0.081018515)
+texture = ExtResource("4_0h883")
+
+[node name="ExhibitSpot_Board" type="Area2D" parent="."]
+position = Vector2(-130.34525, -70.10373)
+script = ExtResource("3_qvbsi")
+ObjectType = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ExhibitSpot_Board"]
+position = Vector2(1.3993378, 24.637077)
+shape = SubResource("RectangleShape2D_jk1hh")
+
+[node name="Sprite2D" type="Sprite2D" parent="ExhibitSpot_Board"]
+position = Vector2(1.9586048, 24.828949)
+scale = Vector2(0.16330734, 0.067822695)
+texture = ExtResource("5_6v04g")
+
+[node name="ExhibitSpot_Cage" type="Area2D" parent="."]
+position = Vector2(141.65475, -50.10373)
+script = ExtResource("3_qvbsi")
+ObjectType = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ExhibitSpot_Cage"]
+position = Vector2(-20.318436, 51.254654)
+scale = Vector2(0.99999994, 0.99999994)
+shape = SubResource("RectangleShape2D_b6b7p")
+
+[node name="Sprite2D" type="Sprite2D" parent="ExhibitSpot_Cage"]
+position = Vector2(-25.44344, 51.254654)
+scale = Vector2(0.45229954, 0.28574583)
+texture = ExtResource("6_b8xwt")

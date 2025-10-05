@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\exhibit\\exhibitspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\exhibit\\exhibitspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\exhibit\\exhibitpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\exhibit\\exhibitpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\misc\\expeditionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\misc\\expeditionbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\exhibit\\exhibit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\exhibit\\exhibit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\exhibit\\exhibitloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\exhibit\\exhibitloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\zone\\cryptidzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\zone\\cryptidzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\zone\\cryptidselectpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\zone\\cryptidselectpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\zone\\cryptidselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\zone\\cryptidselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\zone\\cryptidmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\zone\\cryptidmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|c:\\users\\hubko\\desktop\\cryptidvalley\\cryptid-valley\\museum\\misc\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3913D0-04FA-419E-A426-890A431531BA}|CryptidValley.csproj|solutionrelative:museum\\misc\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExhibitLoader.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitLoader.cs",
+              "RelativeDocumentMoniker": "Museum\\Exhibit\\ExhibitLoader.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitLoader.cs",
+              "RelativeToolTip": "Museum\\Exhibit\\ExhibitLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:45:55.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryUI.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\InventoryUI.cs",
+              "RelativeDocumentMoniker": "InventoryUI.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\InventoryUI.cs",
+              "RelativeToolTip": "InventoryUI.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwBkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T18:32:50.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Inventory.cs",
+              "RelativeToolTip": "Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:37:19.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HUD.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\HUD.cs",
+              "RelativeDocumentMoniker": "Museum\\HUD.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\HUD.cs",
+              "RelativeToolTip": "Museum\\HUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:58:53.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\CameraController.cs",
+              "RelativeDocumentMoniker": "Museum\\CameraController.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\CameraController.cs",
+              "RelativeToolTip": "Museum\\CameraController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:11:30.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CryptidManager.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidManager.cs",
+              "RelativeDocumentMoniker": "Museum\\Zone\\CryptidManager.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidManager.cs",
+              "RelativeToolTip": "Museum\\Zone\\CryptidManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:51:11.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Museum.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Museum.cs",
+              "RelativeDocumentMoniker": "Museum\\Museum.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Museum.cs",
+              "RelativeToolTip": "Museum\\Museum.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:03:26.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CryptidSelectPopup.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidSelectPopup.cs",
+              "RelativeDocumentMoniker": "Museum\\Zone\\CryptidSelectPopup.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidSelectPopup.cs",
+              "RelativeToolTip": "Museum\\Zone\\CryptidSelectPopup.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:52:13.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CryptidZone.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidZone.cs",
+              "RelativeDocumentMoniker": "Museum\\Zone\\CryptidZone.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidZone.cs",
+              "RelativeToolTip": "Museum\\Zone\\CryptidZone.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:50:46.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CryptidSelector.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidSelector.cs",
+              "RelativeDocumentMoniker": "Museum\\Zone\\CryptidSelector.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Zone\\CryptidSelector.cs",
+              "RelativeToolTip": "Museum\\Zone\\CryptidSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T14:50:17.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Misc\\Enums.cs",
+              "RelativeDocumentMoniker": "Museum\\Misc\\Enums.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Misc\\Enums.cs",
+              "RelativeToolTip": "Museum\\Misc\\Enums.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:48:37.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exhibit.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\Exhibit.cs",
+              "RelativeDocumentMoniker": "Museum\\Exhibit\\Exhibit.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\Exhibit.cs",
+              "RelativeToolTip": "Museum\\Exhibit\\Exhibit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:47:40.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExhibitPopup.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitPopup.cs",
+              "RelativeDocumentMoniker": "Museum\\Exhibit\\ExhibitPopup.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitPopup.cs",
+              "RelativeToolTip": "Museum\\Exhibit\\ExhibitPopup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:36:53.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpeditionButton.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Misc\\ExpeditionButton.cs",
+              "RelativeDocumentMoniker": "Museum\\Misc\\ExpeditionButton.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Misc\\ExpeditionButton.cs",
+              "RelativeToolTip": "Museum\\Misc\\ExpeditionButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:36:51.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExhibitSpot.cs",
+              "DocumentMoniker": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitSpot.cs",
+              "RelativeDocumentMoniker": "Museum\\Exhibit\\ExhibitSpot.cs",
+              "ToolTip": "C:\\Users\\hubko\\Desktop\\CryptidValley\\cryptid-valley\\Museum\\Exhibit\\ExhibitSpot.cs",
+              "RelativeToolTip": "Museum\\Exhibit\\ExhibitSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:36:34.846Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

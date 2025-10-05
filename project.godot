@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="CryptidValley"
+run/main_scene="uid://de85xpbc16w7n"
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+CryptidManager="*res://Museum/Zone/CryptidManager.cs"
+Inventory="*res://Inventory.cs"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="CryptidValley"

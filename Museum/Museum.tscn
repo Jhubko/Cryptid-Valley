@@ -1,0 +1,151 @@
+[gd_scene load_steps=11 format=3 uid="uid://de85xpbc16w7n"]
+
+[ext_resource type="Script" uid="uid://b0nddl7vuagny" path="res://Museum/Museum.cs" id="1_12o82"]
+[ext_resource type="Script" uid="uid://dnchw6c1okwm2" path="res://Museum/CameraController.cs" id="2_khkv5"]
+[ext_resource type="PackedScene" uid="uid://ccyrhtrfr3rj1" path="res://Museum/cryptid_zone.tscn" id="2_puovx"]
+[ext_resource type="Texture2D" uid="uid://5apqht0h1xc0" path="res://Icons/Sprite-0001.png" id="2_ve8mn"]
+[ext_resource type="Texture2D" uid="uid://cy1hvnkm215wm" path="res://Icons/Sprite-0002.png" id="3_khkv5"]
+[ext_resource type="Script" uid="uid://bps1ukt001e4r" path="res://Museum/Misc/ExpeditionButton.cs" id="3_ve8mn"]
+[ext_resource type="Script" uid="uid://cn0yif361e5jt" path="res://Museum/Exhibit/ExhibitPopup.cs" id="4_khkv5"]
+[ext_resource type="Script" uid="uid://cx7mb50811xao" path="res://Museum/HUD.cs" id="8_c2vfj"]
+[ext_resource type="Script" uid="uid://yq7wrjdrcupg" path="res://InventoryUI.cs" id="9_dlgb4"]
+[ext_resource type="PackedScene" uid="uid://xuwtj6ktooaa" path="res://exibit_slot.tscn" id="10_x36wj"]
+
+[node name="Museum" type="Node2D"]
+script = ExtResource("1_12o82")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576.70636, 323.00003)
+script = ExtResource("2_khkv5")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(399.70636, 319.00003)
+scale = Vector2(1.2729918, 2.034404)
+texture = ExtResource("2_ve8mn")
+
+[node name="Sprite0002" type="Sprite2D" parent="."]
+position = Vector2(864.7063, 308)
+scale = Vector2(2.527851, 2.9154437)
+texture = ExtResource("3_khkv5")
+
+[node name="CryptidZone" parent="." instance=ExtResource("2_puovx")]
+position = Vector2(370, 191)
+scale = Vector2(1, 0.76071924)
+popupPath = NodePath("../ExhibitPopup")
+
+[node name="CryptidZone2" parent="." instance=ExtResource("2_puovx")]
+position = Vector2(450.70636, 424.00003)
+rotation = -3.1397338
+scale = Vector2(0.9599994, 0.76000184)
+popupPath = NodePath("../ExhibitPopup")
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 476.0
+offset_top = -99.0
+offset_right = 626.0
+offset_bottom = -46.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_ve8mn")
+
+[node name="ExhibitPopup" type="Window" parent="."]
+oversampling_override = 1.0
+mode = 1
+position = Vector2i(100, 100)
+transient = true
+unresizable = true
+script = ExtResource("4_khkv5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ExhibitPopup"]
+offset_top = 1.0
+offset_right = 394.0
+offset_bottom = 198.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Title" type="Label" parent="ExhibitPopup/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+
+[node name="ExhibitScroll" type="ScrollContainer" parent="ExhibitPopup/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ExhibitVBox" type="VBoxContainer" parent="ExhibitPopup/VBoxContainer/ExhibitScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -575.0
+offset_top = -324.0
+offset_right = 577.0005
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("8_c2vfj")
+
+[node name="HUD" type="PanelContainer" parent="CanvasLayer/UI"]
+clip_contents = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -307.0005
+offset_top = 10.0
+offset_right = -12.0078125
+offset_bottom = 95.96069
+grow_horizontal = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/UI/HUD"]
+layout_mode = 2
+
+[node name="MoneyLabel" type="Label" parent="CanvasLayer/UI/HUD/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="VisitorsLabel" type="Label" parent="CanvasLayer/UI/HUD/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="AttractionLabel" type="Label" parent="CanvasLayer/UI/HUD/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Inventory" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 15.0
+offset_top = 18.0
+offset_right = 166.0
+offset_bottom = 161.0
+script = ExtResource("9_dlgb4")
+ExhibitSlotScene = ExtResource("10_x36wj")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer/Inventory"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Inventory/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
